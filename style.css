@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("./img/model-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.container {
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3));
+}
+
+nav {
+  height: 10vh;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  font-size: 25px;
+  padding-top: 1rem;
+}
+nav ul li {
+  display: inline-block;
+  padding-right: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: blue;
+}
+nav ul li:first-child a {
+  color: red;
+}
+nav ul li:first-child a:hover {
+  color: blue;
+}
+
+div .part1 {
+  height: 80vh;
+  align-content: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+div .part1 h6 {
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div .part1 h2 {
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 900;
+}
+div .part1 h2 span {
+  color: red;
+  padding-left: 0.5rem;
+  font-size: 5rem;
+  font-weight: 900;
+}
+div .part1 h2 hr {
+  background-color: white;
+}
+
+footer {
+  height: 10vh;
+}
+footer ul {
+  font-size: 3rem;
+  list-style: none;
+}
+footer ul li {
+  color: white;
+  display: inline-block;
+}
+footer ul li i:hover {
+  color: white;
+  background-color: orangered;
+}
+
+/*# sourceMappingURL=style.css.map */
